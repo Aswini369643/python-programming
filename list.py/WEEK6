@@ -1,0 +1,8 @@
+a=[]
+size=5
+n=int(input("the size of a"))
+print("enter the elements into a")
+for i in range(n+1):
+    element=input()
+    a.append(element)
+print("a",a)    
